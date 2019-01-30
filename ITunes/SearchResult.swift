@@ -20,6 +20,6 @@ struct SearchResult: Codable {
     }
 }
 
-struct SearchResults {
-    let result = [SearchResult].self
+struct SearchResults: Codable {
+    let result: [SearchResult]
 }
