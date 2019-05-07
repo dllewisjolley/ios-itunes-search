@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ITunes.xcodeproj">
+      location = "self:NewItunes.xcodeproj">
    </FileRef>
 </Workspace>

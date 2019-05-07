@@ -1,25 +1,27 @@
 //
 //  SearchResult.swift
-//  ITunes
+//  NewItunes
 //
-//  Created by Diante Lewis-Jolley on 1/30/19.
+//  Created by Diante Lewis-Jolley on 5/7/19.
 //  Copyright © 2019 Diante Lewis-Jolley. All rights reserved.
 //
 
 import Foundation
 
-
 struct SearchResult: Codable {
-    var title: String
-    var creator: String
+    let title: String
+    let creator: String
 
     enum CodingKeys: String, CodingKey {
 
-        case title = "trackName"
-        case creator = "artistName"
+        case title = "artistName"
+        case creator = "trackName"
     }
+
+
 }
 
 struct SearchResults: Codable {
     let result: [SearchResult]
 }
+
