@@ -22,7 +22,8 @@ class SearchResultController {
 
         urlComponents?.queryItems = [queryItems, queryItem]
 
-        let urlRequest = URLRequest(url: baseURL)
+        var urlRequest = URLRequest(url: baseURL)
+        urlRequest.httpMethod = "GET"
 
         URLSession.shared.dataTask(with: urlRequest) { (data, _, error) in
             if let error = error {
