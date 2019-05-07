@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9E1B2A0222820D61009598BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B2A0122820D61009598BC /* AppDelegate.swift */; };
-		9E1B2A0422820D61009598BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B2A0322820D61009598BC /* ViewController.swift */; };
 		9E1B2A0722820D62009598BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B2A0522820D62009598BC /* Main.storyboard */; };
 		9E1B2A0922820DA2009598BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B2A0822820DA2009598BC /* Assets.xcassets */; };
 		9E1B2A0C22820DA3009598BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B2A0A22820DA3009598BC /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		9E1B29FE22820D61009598BC /* NewItunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewItunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1B2A0122820D61009598BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E1B2A0322820D61009598BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E1B2A0622820D62009598BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E1B2A0822820DA2009598BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1B2A0B22820DA3009598BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				9E1B2A1722821676009598BC /* SearchResultController.swift */,
 				9E1B2A1322820EAF009598BC /* SearchResult.swift */,
 				9E1B2A0122820D61009598BC /* AppDelegate.swift */,
-				9E1B2A0322820D61009598BC /* ViewController.swift */,
 				9E1B2A0522820D62009598BC /* Main.storyboard */,
 				9E1B2A192282218E009598BC /* SearchResultsTableViewController.swift */,
 				9E1B2A0822820DA2009598BC /* Assets.xcassets */,
@@ -148,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1B2A1622821549009598BC /* ResultType.swift in Sources */,
-				9E1B2A0422820D61009598BC /* ViewController.swift in Sources */,
 				9E1B2A1A2282218F009598BC /* SearchResultsTableViewController.swift in Sources */,
 				9E1B2A1422820EAF009598BC /* SearchResult.swift in Sources */,
 				9E1B2A0222820D61009598BC /* AppDelegate.swift in Sources */,
